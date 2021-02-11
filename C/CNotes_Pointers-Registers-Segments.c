@@ -1,7 +1,7 @@
 /*
 	@author:	Sarah Stepak
 	@date:		02.11.2021
-	@program: 	CNotes_.c
+	@program: 	CNotes_Pointers-Registers-Segments.c
 
 	-------------------------------------------------------------
 	-------------------------------------------------------------
@@ -29,7 +29,7 @@
 
 
 
-	Assembly and Regesters 
+	Assembly and Registers 
 	-------------------------------------------------------------
 	.
 	CPU
@@ -40,7 +40,7 @@
 	|                |
 	|----------------|
 
-	The R is regesters
+	The R is Registers
 	.
 	.
 	[    | heap -> ]
