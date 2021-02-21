@@ -42,7 +42,11 @@
 	@return		Type: int,	Returns the length of the string.
 */
 int stringLen( char * s){
-	int i;
+	int i = 0;
+	while (s[i]){
+		i++
+	}
+	print(%d,i)
 	//add loop
 	//s[i]
 	//*[s+i]
@@ -78,7 +82,7 @@ int main(int argc, char * argv []){
 
 	// String declaration (of up to 100 chars)
 	// s1 - String 1, s2 - String 2
-	char s1[100];
+	char * s1[100];
 	char s2[100];
 
 	// Length of strings
@@ -88,7 +92,7 @@ int main(int argc, char * argv []){
 
 	// Prompts the user for input
 	printf("Please input the first string: \n");
-	scanf("%s",s1);
+	s1 = scanf("%s",s1);
 	printf("Please input the second string: \n");
 	scanf("%s",s2);	
 	printf("\n\n");
@@ -96,5 +100,6 @@ int main(int argc, char * argv []){
 
 	// Calls the first function
 	printf("Length of String 1: \n");
+	stringLen(s1)
 	printf("Length of String 2: \n");
 }
